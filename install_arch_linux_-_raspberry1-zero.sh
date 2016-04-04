@@ -72,7 +72,7 @@ report_ok_message "Done"
 # Downloading
 
 report_info "Downloading lastest image from archlinuxarm.org"
-wget -c http://archlinuxarm.org/os/ArchLinuxARM-rpi-latest.zip
+wget -c http://no.mirror.archlinuxarm.org/os/ArchLinuxARM-rpi-latest.tar.gz
 report_ok_message "Done"	
 
 # Unpacking
